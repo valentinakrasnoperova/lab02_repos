@@ -20,7 +20,7 @@ int main() {
     cin >> y;
 
     z1 = cos (x)* cos(x)* cos(x)* cos(x)* cos(x) + sin(x)*sin(x) + 1./4* sin(2*x)* sin(2*x) -1;
-    z2 = sin(y+x)*sin(y-x);
+    //z2 = sin(y+x)*sin(y-x);
 
     cout << endl;
     cout << "z1 = " << z1 << endl;
