@@ -20,11 +20,12 @@ int main() {
     cin >> y;
 
     z1 = cos (x)* cos(x)* cos(x)* cos(x)* cos(x) + sin(x)*sin(x) + 1./4* sin(2*x)* sin(2*x) -1;
-    //z2 = sin(y+x)*sin(y-x);
+    z2 = sin(y+x)*sin(y-x);
     //for second branch
     // for second branch 2.0
     // la ala al
     // la la ala la
+    // eighth commit 
     cout << endl;
     cout << "z1 = " << z1 << endl;
     cout << "z2 = " << z2 << endl;
